@@ -9,6 +9,8 @@ Please put all issues regarding go IPFS _implementation_ in [this repo](https://
 
 ## Install
 
+### Manual
+
 [Install Go](http://golang.org/doc/install). Then:
 
 ```
@@ -16,6 +18,15 @@ git clone https://github.com/jbenet/go-ipfs
 cd go-ipfs/cmd/ipfs
 go get ./...
 go install
+```
+
+### Arch Linux
+
+```
+wget https://aur.archlinux.org/packages/go/go-ipfs-git/go-ipfs-git.tar.gz
+tar -xvf go-ipfs-git.tar.gz
+cd go-ipfs-git
+makepkg -i
 ```
 
 ## Usage
